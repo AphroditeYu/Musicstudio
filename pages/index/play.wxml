@@ -1,0 +1,17 @@
+<view class="content-play">
+  <!--音乐信息-->
+  <view class="content-play-info">
+    <text>{{play.title}}</text>
+    <view>---薛之谦---</view>
+  </view>
+  <!--封面-->
+  <view class="content-play-cover">
+    <image src="{{play.coverImgUrl}}" style="animation-play-state: {{state}}"/>
+  </view>
+  <!--播放进度-->
+  <view class="content-play-progress">
+    <text>{{play.currentTime}}</text>
+    <slider activeColor="#d33a31" block-size="12" value="{{play.percent}}"/>
+    <text>{{play.duration}}</text>
+  </view>
+</view>
