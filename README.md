@@ -1,0 +1,2 @@
+# Musicstudio
+用微信小程序做了一个薛之谦的音乐坊，在mymusic里面启动node,运行index.js文件即可听薛之谦的音乐
